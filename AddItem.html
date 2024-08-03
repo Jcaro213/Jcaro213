@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DA Engagement Inventory</title>
+    <!-- linking to PyScript assets -->
+    <link rel="stylesheet" href="https://pyscript.net/releases/2022.12.1/pyscript.css" />
+    <script defer src="https://pyscript.net/releases/2022.12.1/pyscript.js"></script>
+  </head>
+  <body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div class="topnav" style = "text-align: center;">
+        <a href="#home" class="active" ><img src="homepage.png" alt="Homepage" width="300px" height="91px"></a>
+        
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks" >
+          <a href="#about" style=  " border: solid; color: white; background-color: black">Instructions</a>
+          <a href="#contact" style=  " border: solid; color: white; background-color: black">Give Item</a>
+          <a href="#news" style=  " border: solid; color: white; background-color: black;">Adjust Inventory</a>
+        </div>
+        </div>
+       <div class = "selection" style = "text-align: center;"> 
+        <h4>Which would you like to do?</h4>
+        <py-script src="./inventoryAdjuster.py"></py-script>
+        <a href="#pythonCode1" style = "text-align: center; background-color: blue; color: white;" >Add Inventory</a>
+        <a href="#pythonCode2" style = "text-align: center; background-color: blue; color: white;" >Remove Inventory</a>
+        </div>
+
+  </body>
+  </html>
